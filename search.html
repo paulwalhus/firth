@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search ColinFirth.com — find films, articles, interviews, galleries and news across 500+ pages.">
+  <title>Search &mdash; ColinFirth.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/new.css">
+  <style>
+    .search-wrap {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--border);
+      background: var(--dark-mid);
+      transition: border-color .2s;
+    }
+    .search-box:focus-within { border-color: var(--gold); }
+    .search-box input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: 'Lato', sans-serif;
+      font-size: .95rem;
+      padding: .9rem 1.1rem;
+    }
+    .search-box input::placeholder { color: var(--muted); }
+    .search-box button {
+      background: var(--gold);
+      border: none;
+      color: var(--dark);
+      font-family: 'Lato', sans-serif;
+      font-size: .65rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      padding: .9rem 1.4rem;
+      cursor: pointer;
+      transition: background .2s;
+      white-space: nowrap;
+    }
+    .search-box button:hover { background: var(--gold-lt); }
+
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: .75rem;
+      margin-top: 2.5rem;
+    }
+    .quick-link {
+      display: block;
+      background: var(--dark-mid);
+      border: 1px solid var(--border);
+      padding: 1rem 1.1rem;
+      text-decoration: none;
+      color: var(--text);
+      transition: border-color .2s, background .2s;
+    }
+    .quick-link:hover { border-color: var(--gold); background: #1a2535; color: var(--text); }
+    .quick-link .ql-icon { font-size: 1.2rem; margin-bottom: .4rem; opacity: .7; }
+    .quick-link .ql-title { font-size: .8rem; font-weight: 700; color: #fff; margin-bottom: .2rem; }
+    .quick-link .ql-sub { font-size: .72rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="/" class="site-link">Colin<em>Firth</em>.com</a>
+  <a href="/">Home</a>
+  <a href="/films.html">Films</a>
+  <a href="/news.html">News</a>
+  <a href="/bio.html">Bio</a>
+  <a href="/others.html">Other Sites</a>
+  <a href="/boutiq.html">Boutique</a>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-bg"></div>
+  <div class="page-header-content fade-in">
+    <div class="ph-badge">&#x2605; ColinFirth.com &nbsp;&bull;&nbsp; Search &nbsp;&#x2605;</div>
+    <h1 class="ph-title">Search</h1>
+    <p class="ph-sub">500+ pages &bull; 1,900+ images</p>
+    <p class="ph-role">Films &bull; Articles &bull; Interviews &bull; Galleries</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="inner">
+    <div class="search-wrap">
+
+      <form class="search-box" action="https://www.google.com/search" method="get" target="_blank">
+        <input type="hidden" name="sitesearch" value="firth.com">
+        <input type="text" name="q" placeholder="Search ColinFirth.com&hellip;" autocomplete="off" autofocus>
+        <button type="submit">Search</button>
+      </form>
+      <p style="font-size:.72rem; color:var(--muted); margin-top:.75rem; text-align:center;">
+        Opens Google results filtered to this site.
+      </p>
+
+    </div>
+
+    <p class="s-label" style="margin-top:3rem;">Quick links</p>
+    <div class="quick-links">
+      <a href="/films.html" class="quick-link">
+        <div class="ql-icon">&#127916;</div>
+        <div class="ql-title">Films</div>
+        <div class="ql-sub">Complete filmography 1984&ndash;2026</div>
+      </a>
+      <a href="/news.html" class="quick-link">
+        <div class="ql-icon">&#128240;</div>
+        <div class="ql-title">News</div>
+        <div class="ql-sub">Timeline 2000&ndash;2026</div>
+      </a>
+      <a href="/upcoming.html" class="quick-link">
+        <div class="ql-icon">&#127916;</div>
+        <div class="ql-title">Upcoming</div>
+        <div class="ql-sub">2026 projects &amp; beyond</div>
+      </a>
+      <a href="/articleindex.html" class="quick-link">
+        <div class="ql-icon">&#128214;</div>
+        <div class="ql-title">Articles</div>
+        <div class="ql-sub">Archive 1998&ndash;2015</div>
+      </a>
+      <a href="/boutiq.html" class="quick-link">
+        <div class="ql-icon">&#128722;</div>
+        <div class="ql-title">Boutique</div>
+        <div class="ql-sub">DVDs, books &amp; merchandise</div>
+      </a>
+      <a href="/p_eye_index.html" class="quick-link">
+        <div class="ql-icon">&#128247;</div>
+        <div class="ql-title">Public Eye</div>
+        <div class="ql-sub">Photo galleries</div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="page-footer">
+  <div class="footer-logo">Colin<em>Firth</em>.com</div>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/films.html">Films</a>
+    <a href="/news.html">News</a>
+    <a href="/upcoming.html">Upcoming</a>
+  </div>
+</footer>
+
+<script src="/nav.js"></script>
+</body>
+</html>

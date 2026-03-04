@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop Colin Firth DVDs, Blu-rays, books and merchandise on Amazon â The King's Speech, Love Actually, Bridget Jones and more.">
+  <title>Boutique &mdash; ColinFirth.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/new.css">
+  <style>
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .shop-card {
+      background: var(--dark-mid);
+      border: 1px solid var(--border);
+      padding: 1.5rem 1.25rem;
+      position: relative;
+      transition: border-color .3s, transform .3s;
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+    }
+    .shop-card:hover {
+      border-color: rgba(201,168,76,.45);
+      transform: translateY(-3px);
+    }
+    .shop-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+      background: var(--gold);
+    }
+    .shop-card .year {
+      font-size: .6rem;
+      letter-spacing: .25em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .shop-card h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1rem;
+      color: #fff;
+      line-height: 1.3;
+      margin: 0;
+    }
+    .shop-card .role {
+      font-size: .78rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .shop-card .buy-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin-top: auto;
+      padding-top: .75rem;
+      border-top: 1px solid var(--border);
+    }
+    .buy-btn {
+      display: inline-block;
+      font-size: .65rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: .4em .9em;
+      text-decoration: none;
+      transition: background .2s, color .2s;
+    }
+    .buy-btn.primary {
+      background: var(--gold);
+      color: var(--dark);
+    }
+    .buy-btn.primary:hover {
+      background: var(--gold-lt);
+      color: var(--dark);
+    }
+    .buy-btn.secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid rgba(168,205,221,.3);
+    }
+    .buy-btn.secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+    .section-rule {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      margin: 3rem 0 1.5rem;
+    }
+    .section-rule::before, .section-rule::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+    .section-rule span {
+      color: var(--gold);
+      font-size: .65rem;
+      letter-spacing: .35em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .disclaimer {
+      font-size: .75rem;
+      color: var(--muted);
+      text-align: center;
+      max-width: 600px;
+      margin: 3rem auto 0;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="/" class="site-link">Colin<em>Firth</em>.com</a>
+  <a href="/films.html">Films</a>
+  <a href="/tv.html">TV</a>
+  <a href="/theater.html">Theatre</a>
+  <a href="/news.html">News</a>
+  <a href="/upcoming.html">Upcoming</a>
+  <a href="/bio.html">Bio</a>
+  <a href="/others.html">Other Sites</a>
+  <a href="/boutiq.html">Boutique</a>
+  <a href="/search.html">Search</a>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-bg"></div>
+  <div class="page-header-content fade-in">
+    <div class="ph-badge">&#x2605; Shop &bull; Amazon US &#x2605;</div>
+    <h1 class="ph-title">The Boutique</h1>
+    <p class="ph-sub">DVDs &bull; Blu-rays &bull; Books</p>
+    <p class="ph-role">Support the site by shopping through these links</p>
+  </div>
+</header>
+
+
+<section class="section">
+  <div class="inner">
+
+    <p class="body-text" style="text-align:center; margin-bottom:0;">
+      <span style="color:var(--muted); font-size:.9rem;">Purchases made through these links earn a small commission that helps keep ColinFirth.com running &mdash; at no extra cost to you.</span>
+    </p>
+
+
+    <!-- ═══ NEW & RECENT ══════════════════════════════════ -->
+    <div class="section-rule"><span>New &amp; Recent</span></div>
+    <div class="shop-grid">
+
+      <div class="shop-card">
+        <div class="year">2025 &bull; Streaming / DVD</div>
+        <h4>Lockerbie: A Search for Truth</h4>
+        <div class="role">as Dr. Jim Swire</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=lockerbie+search+for+truth+colin+firth&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2022 &bull; Blu-ray / DVD</div>
+        <h4>The Staircase</h4>
+        <div class="role">as Michael Peterson</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=the+staircase+2022+colin+firth&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2021 &bull; Blu-ray / DVD</div>
+        <h4>Operation Mincemeat</h4>
+        <div class="role">as Ewen Montagu</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=operation+mincemeat+colin+firth+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2020 &bull; Blu-ray / DVD</div>
+        <h4>Supernova</h4>
+        <div class="role">as Sam</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=supernova+2020+colin+firth+stanley+tucci&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2019 &bull; Blu-ray / DVD</div>
+        <h4>1917</h4>
+        <div class="role">as General Erinmore</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=1917+sam+mendes+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2018 &bull; Blu-ray / DVD</div>
+        <h4>Mary Poppins Returns</h4>
+        <div class="role">as William Weatherall Wilkins</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=mary+poppins+returns+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ═══ THE CLASSICS ══════════════════════════════════ -->
+    <div class="section-rule"><span>The Classics</span></div>
+    <div class="shop-grid">
+
+      <div class="shop-card">
+        <div class="year">2010 &bull; Blu-ray / DVD</div>
+        <h4>The King&rsquo;s Speech</h4>
+        <div class="role">as King George VI</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=the+kings+speech+colin+firth+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Blu-ray / DVD</a>
+          <a class="buy-btn secondary" href="https://www.amazon.com/s?k=the+kings+speech+book&tag=colinfirthfan-20" target="_blank" rel="noopener">Book</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2003 &bull; Blu-ray / DVD</div>
+        <h4>Love Actually</h4>
+        <div class="role">as Jamie</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=love+actually+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2001 &bull; Blu-ray / DVD</div>
+        <h4>Bridget Jones&rsquo;s Diary</h4>
+        <div class="role">as Mark Darcy</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=bridget+jones+diary+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Blu-ray / DVD</a>
+          <a class="buy-btn secondary" href="https://www.amazon.com/s?k=bridget+jones+diary+book+helen+fielding&tag=colinfirthfan-20" target="_blank" rel="noopener">Book</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2004 &bull; Blu-ray / DVD</div>
+        <h4>Bridget Jones: The Edge of Reason</h4>
+        <div class="role">as Mark Darcy</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=bridget+jones+edge+of+reason+dvd&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2016 &bull; Blu-ray / DVD</div>
+        <h4>Bridget Jones&rsquo;s Baby</h4>
+        <div class="role">as Mark Darcy</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=bridget+jones+baby+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">1995 &bull; DVD</div>
+        <h4>Pride &amp; Prejudice</h4>
+        <div class="role">as Mr. Darcy</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=pride+prejudice+1995+colin+firth+dvd&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="buy-btn secondary" href="https://www.amazon.com/s?k=pride+and+prejudice+jane+austen+book&tag=colinfirthfan-20" target="_blank" rel="noopener">Book</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2008 &bull; Blu-ray / DVD</div>
+        <h4>Mamma Mia!</h4>
+        <div class="role">as Harry Bright</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=mamma+mia+2008+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2018 &bull; Blu-ray / DVD</div>
+        <h4>Mamma Mia! Here We Go Again</h4>
+        <div class="role">as Harry Bright</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=mamma+mia+here+we+go+again+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ═══ THRILLERS & DRAMA ══════════════════════════════ -->
+    <div class="section-rule"><span>Thrillers &amp; Drama</span></div>
+    <div class="shop-grid">
+
+      <div class="shop-card">
+        <div class="year">2011 &bull; Blu-ray / DVD</div>
+        <h4>Tinker, Tailor, Soldier, Spy</h4>
+        <div class="role">as Bill Haydon</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=tinker+tailor+soldier+spy+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Blu-ray / DVD</a>
+          <a class="buy-btn secondary" href="https://www.amazon.com/s?k=tinker+tailor+soldier+spy+book+le+carre&tag=colinfirthfan-20" target="_blank" rel="noopener">Book</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2009 &bull; Blu-ray / DVD</div>
+        <h4>A Single Man</h4>
+        <div class="role">as George Falconer</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=a+single+man+colin+firth+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2015 &bull; Blu-ray / DVD</div>
+        <h4>Kingsman: The Secret Service</h4>
+        <div class="role">as Harry Hart / Galahad</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=kingsman+secret+service+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2017 &bull; Blu-ray / DVD</div>
+        <h4>Kingsman: The Golden Circle</h4>
+        <div class="role">as Harry Hart / Galahad</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=kingsman+golden+circle+blu-ray&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2003 &bull; DVD</div>
+        <h4>Girl with a Pearl Earring</h4>
+        <div class="role">as Pieter van Ruijven</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=girl+with+a+pearl+earring+dvd+colin+firth&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">2005 &bull; DVD</div>
+        <h4>Where the Truth Lies</h4>
+        <div class="role">as Lanny Morris</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=where+the+truth+lies+colin+firth+dvd&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ═══ BOOKS ══════════════════════════════════════════ -->
+    <div class="section-rule"><span>Books</span></div>
+    <div class="shop-grid">
+
+      <div class="shop-card">
+        <div class="year">Biography</div>
+        <h4>The King&rsquo;s Speech</h4>
+        <div class="role">by Mark Logue &amp; Peter Conradi</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=the+kings+speech+book+mark+logue&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Novel</div>
+        <h4>Bridget Jones&rsquo;s Diary</h4>
+        <div class="role">by Helen Fielding</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=bridget+jones+diary+helen+fielding&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Novel</div>
+        <h4>A Single Man</h4>
+        <div class="role">by Christopher Isherwood</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=a+single+man+christopher+isherwood&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Novel</div>
+        <h4>Tinker, Tailor, Soldier, Spy</h4>
+        <div class="role">by John le Carr&eacute;</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=tinker+tailor+soldier+spy+john+le+carre&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">History</div>
+        <h4>Operation Mincemeat</h4>
+        <div class="role">by Ben Macintyre</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=operation+mincemeat+book+ben+macintyre&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Novel</div>
+        <h4>Pride &amp; Prejudice</h4>
+        <div class="role">by Jane Austen</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=pride+and+prejudice+jane+austen&tag=colinfirthfan-20" target="_blank" rel="noopener">Buy on Amazon</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ═══ SWAG & MERCHANDISE ════════════════════════════ -->
+    <div class="section-rule"><span>Swag &amp; Merchandise</span></div>
+    <div class="shop-grid">
+
+      <div class="shop-card">
+        <div class="year">Apparel</div>
+        <h4>Colin Firth T-Shirts</h4>
+        <div class="role">Tees, hoodies &amp; more</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=colin+firth+t-shirt&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Posters &amp; Prints</div>
+        <h4>Colin Firth Posters</h4>
+        <div class="role">Wall art &amp; framed prints</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=colin+firth+poster&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Posters &amp; Prints</div>
+        <h4>The King&rsquo;s Speech Poster</h4>
+        <div class="role">Movie poster art</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=the+kings+speech+movie+poster&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Posters &amp; Prints</div>
+        <h4>Mr. Darcy / Pride &amp; Prejudice Art</h4>
+        <div class="role">Prints, canvas &amp; wall art</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=mr+darcy+colin+firth+print&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Drinkware</div>
+        <h4>Colin Firth Mugs &amp; Cups</h4>
+        <div class="role">Coffee mugs &amp; travel cups</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=colin+firth+mug&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Gifts</div>
+        <h4>Bridget Jones Merchandise</h4>
+        <div class="role">Gifts for Bridget Jones fans</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=bridget+jones+merchandise+gifts&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Gifts</div>
+        <h4>Kingsman Merchandise</h4>
+        <div class="role">Umbrellas, cufflinks &amp; more</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=kingsman+merchandise&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+      <div class="shop-card">
+        <div class="year">Calendars</div>
+        <h4>Colin Firth Calendar</h4>
+        <div class="role">Wall &amp; desk calendars</div>
+        <div class="buy-links">
+          <a class="buy-btn primary" href="https://www.amazon.com/s?k=colin+firth+calendar&tag=colinfirthfan-20" target="_blank" rel="noopener">Shop Amazon</a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="disclaimer">
+      ColinFirth.com is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate we earn from qualifying purchases.
+    </p>
+
+  </div>
+</section>
+
+
+<footer class="page-footer">
+  <div class="footer-logo">Colin<em>Firth</em>.com</div>
+  <p>A fan site &mdash; not affiliated with or endorsed by Colin Firth in any way.</p>
+  <nav class="nav-links">
+    <a href="/">Home</a>
+    <a href="/films.html">Films</a>
+    <a href="/tv.html">TV</a>
+    <a href="/theater.html">Theatre</a>
+    <a href="/news.html">News</a>
+    <a href="/upcoming.html">Upcoming</a>
+  </nav>
+</footer>
+
+<script src="/nav.js"></script>
+</body>
+</html>

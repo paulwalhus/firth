@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(perl:*)",
+      "WebSearch",
+      "Bash(curl:*)",
+      "Bash(powershell.exe:*)"
+    ]
+  },
+  "spinnerTipsEnabled": false
+}
